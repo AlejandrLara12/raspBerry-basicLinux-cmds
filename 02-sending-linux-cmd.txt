@@ -1,0 +1,12 @@
+ls <folderName> 
+   returns the files or folders inside that folder
+
+ls folderName > result.txt
+   creates a file called result.txt and the result of 'ls fileName'
+   will be writen into result.txt
+   * if the file exists it will be overwritten
+
+ls filderName >> result.txt
+   will create result.txt if it exists or will append the result 
+   if it does existy
+

@@ -1,0 +1,15 @@
+tee
+
+	when we try to save the output of a cmd we use '>'
+
+	ls <dirName> > outputResult.txt
+	
+	when we use '>', we can't see the output, and we can only save 
+	it into one file
+
+
+	ls <dirName> |tee fileOne.txt dirName/fileTwo.txt
+
+	here we have creted a 'tee', and we can see the output in the
+	cmd line and will also create/save that output into fileOne
+	and into fileTwo as well

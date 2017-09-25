@@ -1,0 +1,8 @@
+pipe |
+
+	takes the output of a first cmd and pipes it to a second cmd
+
+	ls <dirName> | sort -r
+
+	ls: first cmd
+	sort: second cmd

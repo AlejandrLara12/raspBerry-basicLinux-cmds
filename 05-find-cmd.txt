@@ -1,0 +1,9 @@
+find
+	find dirName -name "pattern"
+	dirName will be '.' by default	
+	
+
+	example:
+	find . -name "*contais*"
+	(*) wildcard, selects file with name, no matter what is before
+	or after

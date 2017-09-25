@@ -1,0 +1,14 @@
+grep
+	searches inside files
+
+	grep -r word dirName
+	
+	-r	means is recursive
+	dirName default is '.'
+	word	will be case sensitive, to avoid this use -i
+	
+	grep -r -i word dirName
+	
+	examples
+	grep -r Chev .
+	grep -r -i camaro .

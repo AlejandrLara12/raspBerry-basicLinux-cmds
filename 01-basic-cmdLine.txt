@@ -1,0 +1,25 @@
+pwd
+   shows the current directory
+
+ls
+   shows what is in directory
+
+cd
+   change directory
+ 
+mv <fileName> <newFileName>
+   rename the fileName to the newFileName in the same directory
+
+mv folderName/fileName.txt ./otherFolder/
+   moves a file to an otherFolder
+
+
+cp <fileOne> <fileTwo | directory>
+   copies fileOne and pastes it with a new name or into a 
+   different directory
+
+rm -r <folderName>
+   removes the folder and everything inside it
+
+rm <folderName>/* -i 
+   asks for each file to confirm if you want to delete it or not Y/N

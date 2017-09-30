@@ -1,0 +1,15 @@
+ifconfig 
+
+	gives you the IP address
+
+	hostname -I 
+	also gives you the IP address
+
+
+	
+	check what 'ping' does
+	ping <IPaddress>
+
+
+	sudo raspi-config
+	look for SSH to enable it
